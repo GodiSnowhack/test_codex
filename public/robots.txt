@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://attack-shark-x3.example.com/sitemap.xml

@@ -1,0 +1,30 @@
+{
+  "name": "attack-shark-x3-landing",
+  "version": "0.1.0",
+  "description": "Landing page for Attack Shark X3 gaming mouse",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/js --ext .js",
+    "deploy": "npm run build"
+  },
+  "keywords": [
+    "landing",
+    "gaming",
+    "mouse",
+    "attack-shark"
+  ],
+  "devDependencies": {
+    "@netlify/functions": "^2.6.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
+  }
+}
