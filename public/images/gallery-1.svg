@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Attack Shark X3 Gallery Placeholder</title>
+  <desc id="desc">Stylized illustration for product gallery item</desc>
+  <rect width="800" height="600" fill="#0d0d0d" />
+  <g transform="translate(150 120)">
+    <rect x="0" y="0" width="500" height="360" rx="60" fill="#141414" stroke="#ff3b30" stroke-width="12" />
+    <path d="M120 60h260c40 0 60 28 60 70v100c0 42-20 70-60 70H120c-40 0-60-28-60-70V130c0-42 20-70 60-70z" fill="#101010" />
+    <circle cx="250" cy="180" r="54" fill="#1f68ff" opacity="0.4" />
+    <circle cx="330" cy="180" r="34" fill="#ff3b30" opacity="0.5" />
+    <circle cx="170" cy="180" r="34" fill="#ff9f1a" opacity="0.5" />
+  </g>
+  <text x="50" y="520" fill="#fafafa" font-family="Montserrat, sans-serif" font-size="48" font-weight="700">Gallery Shot ${i}</text>
+</svg>

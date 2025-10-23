@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-shark-dark text-white font-body antialiased;
+}
+
+a {
+  @apply text-shark-accent hover:text-shark-accentOrange transition-colors;
+}
+
+header {
+  backdrop-filter: blur(12px);
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-heading font-bold text-white mb-6;
+}
+
+.section-subtitle {
+  @apply text-lg text-gray-300 max-w-2xl;
+}
+
+.nav-link {
+  @apply text-sm uppercase tracking-widest text-gray-300 hover:text-white transition;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center px-6 py-3 rounded-full bg-shark-accent text-white font-semibold tracking-wide shadow-lg shadow-shark-accent/50 transition-transform transform hover:-translate-y-1 hover:bg-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-shark-accent;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center px-6 py-3 rounded-full border border-white text-white font-semibold tracking-wide hover:bg-white hover:text-shark-dark transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white;
+}
+
+.card {
+  @apply bg-white/5 border border-white/10 rounded-3xl p-6 transition hover:border-shark-accent;
+}
+
+.table-specs {
+  @apply w-full overflow-hidden rounded-3xl border border-white/10;
+}
+
+.table-specs tbody tr:nth-child(odd) {
+  @apply bg-white/5;
+}
+
+.table-specs th,
+.table-specs td {
+  @apply px-4 py-3 text-left text-sm md:text-base;
+}
+
+input, select, textarea {
+  @apply w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder:text-gray-400 focus:border-shark-accent focus:outline-none focus:ring-2 focus:ring-shark-accent;
+}
+
+.form-feedback {
+  @apply mt-4 text-sm font-semibold;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+}
+
+.gallery-slide {
+  @apply rounded-3xl overflow-hidden border border-white/10;
+}
+
+.review-card {
+  @apply card flex flex-col gap-3;
+}
+
+.footer-link {
+  @apply text-sm text-gray-400 hover:text-white;
+}

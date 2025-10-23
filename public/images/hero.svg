@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Attack Shark X3 Hero Placeholder</title>
+  <desc id="desc">Abstract gradient background with silhouette of a gaming mouse</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0b0b" />
+      <stop offset="100%" stop-color="#1a1a1a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b30" />
+      <stop offset="100%" stop-color="#1f68ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <g opacity="0.8">
+    <circle cx="300" cy="200" r="180" fill="#0f0f0f" />
+    <circle cx="900" cy="520" r="220" fill="#111" />
+  </g>
+  <g transform="translate(450 150)" fill="#161616" stroke="url(#accent)" stroke-width="12">
+    <rect x="120" y="40" width="180" height="320" rx="90" />
+    <path d="M210 40c-30 0-50 40-50 70v220c0 30 20 70 50 70s50-40 50-70V110c0-30-20-70-50-70z" fill="#0c0c0c" />
+    <circle cx="210" cy="200" r="26" fill="#1a1a1a" />
+  </g>
+  <text x="80" y="600" fill="#fafafa" font-family="Montserrat, sans-serif" font-size="56" font-weight="700">Attack Shark X3</text>
+  <text x="80" y="650" fill="#ff3b30" font-family="Inter, sans-serif" font-size="32">Gaming Mouse Visual Placeholder</text>
+</svg>
